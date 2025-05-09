@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ebbe Myrsky Mercurius Christensen | CV</title>
+  <link rel="icon" type="image/svg+xml" href="assets/ebbe-christensen.svg" sizes="any"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="background-gradient"></div>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" data-i18n="nav.logo">Ebbe Christensen</a>
+      <nav>
+        <div class="nav-links-group">
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+            <li><a href="#education" data-i18n="nav.education">Education</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li><a href="Ebbe_Christensen_CV.pdf" target="_blank" rel="noopener" data-i18n="nav.download_cv">
+                  <span data-i18n="nav.download_cv">Download CV</span>
+                </a></li>
+            <li><button class="lang-toggle" id="lang-toggle" aria-label="Vaihda kieli / Switch language">
+                  <span id="lang-toggle-label">EN</span>
+                </button></li>
+          </ul>
+          <div class="nav-actions">
+          </div>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="hero" class="section hero-section">
+      <div class="hero-content">
+        <h1 data-i18n="hero.name">Ebbe Myrsky Mercurius Christensen</h1>
+        <h2 data-i18n="hero.title">Sähkö- ja automaatioalan & Ylioppilastutkinnon opiskelija</h2>
+        <p data-i18n="hero.intro">
+          Moderni, utelias ja tavoitteellinen opiskelija, joka nauttii ongelmien ratkomisesta ja uuden oppimisesta. Etsin mahdollisuuksia kehittää itseäni ja osaamistani tulevaisuuden työuraa varten.
+        </p>
+        <div class="hero-contact">
+          <a href="#contact" class="btn btn-accent" data-i18n="hero.contact_btn">
+            <img src="assets/mail.svg" alt="" class="icon-btn" width="20" height="20" />
+            <span data-i18n="hero.contact_btn">Ota yhteyttä</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section fade-in">
+      <div class="glass-card">
+        <h2 data-i18n="about.title">About Me</h2>
+        <p data-i18n="about.text">
+          Olen rehellinen ja tarkka, nautin ongelmien ratkomisesta ja olen utelias oppimaan uutta. Ymmärrän hyvin ihmisiä ja olen innokas kehittämään itseäni sekä taitojani tulevaa työuraa varten.
+        </p>
+        <ul class="about-quotes">
+          <li data-i18n="about.quote1">“reipas”</li>
+          <li data-i18n="about.quote2">“ahkera”</li>
+          <li data-i18n="about.quote3">“oma-aloitteinen”</li>
+        </ul>
+        <p class="about-note" data-i18n="about.note">
+          Esimieheni ovat korostaneet rehellisyyttäni, tarkkuuttani, ahkeruuttani ja joustokykyäni.
+        </p>
+      </div>
+    </section>
+    <section id="experience" class="section fade-in">
+      <h2 data-i18n="experience.title">Experience</h2>
+      <div class="experience-list">
+        <div class="exp-card glass-card">
+          <div class="exp-header">
+            <span class="exp-title" data-i18n="experience.1.title">Kokki</span>
+            <span class="exp-company" data-i18n="experience.1.company">Compass Group, Food & Co. Pressi</span>
+            <span class="exp-date" data-i18n="experience.1.date">2 vk / 2024</span>
+          </div>
+          <ul>
+            <li data-i18n="experience.1.desc">Keittiön siivous, ruoanlaitto, leipominen, tiskienpesu, tukku tilausten vastaanotto</li>
+          </ul>
+        </div>
+        <div class="exp-card glass-card">
+          <div class="exp-header">
+            <span class="exp-title" data-i18n="experience.2.title">Hyllyttäjä</span>
+            <span class="exp-company" data-i18n="experience.2.company">S-market Maunula</span>
+            <span class="exp-date" data-i18n="experience.2.date">2 vk / 2023</span>
+          </div>
+          <ul>
+            <li data-i18n="experience.2.desc">Hyllyjen täydentäminen, järjestäminen ja siivous</li>
+          </ul>
+        </div>
+        <div class="exp-card glass-card">
+          <div class="exp-header">
+            <span class="exp-title" data-i18n="experience.3.title">Kokki (TET)</span>
+            <span class="exp-company" data-i18n="experience.3.company">Lounaskahvila Messi</span>
+            <span class="exp-date" data-i18n="experience.3.date">3 pv / 2023</span>
+          </div>
+          <ul>
+            <li data-i18n="experience.3.desc">Ruoan ja leivonnaisten valmistus, asiakaspalvelu (mm. kassalla)</li>
+          </ul>
+        </div>
+        <div class="exp-card glass-card">
+          <div class="exp-header">
+            <span class="exp-title" data-i18n="experience.4.title">Kokki (TET)</span>
+            <span class="exp-company" data-i18n="experience.4.company">Compass Group, Olympiastadion</span>
+            <span class="exp-date" data-i18n="experience.4.date">1 vk / 2023</span>
+          </div>
+          <ul>
+            <li data-i18n="experience.4.desc">Keittiön siivous, ruoanlaitto, tiskienpesu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="section fade-in">
+      <h2 data-i18n="education.title">Education</h2>
+      <div class="education-list">
+        <div class="edu-card glass-card">
+          <div class="edu-header">
+            <span class="edu-title" data-i18n="education.1.title">Sähkö- ja automaatioalan perustutkinto</span>
+            <span class="edu-school" data-i18n="education.1.school">Etelä-Kymenlaakson ammattiopisto</span>
+            <span class="edu-date" data-i18n="education.1.date">2024–</span>
+          </div>
+        </div>
+        <div class="edu-card glass-card">
+          <div class="edu-header">
+            <span class="edu-title" data-i18n="education.2.title">Ylioppilastutkinto</span>
+            <span class="edu-school" data-i18n="education.2.school">Haminan lukio</span>
+            <span class="edu-date" data-i18n="education.2.date">2024–</span>
+          </div>
+        </div>
+        <div class="edu-card glass-card">
+          <div class="edu-header">
+            <span class="edu-title" data-i18n="education.3.title">Stipendi: “Potku tulevaisuuteen”</span>
+            <span class="edu-school" data-i18n="education.3.school">Keskuskoulun stipendirahasto</span>
+            <span class="edu-date" data-i18n="education.3.date">1.6.2024</span>
+          </div>
+          <div class="edu-desc" data-i18n="education.3.desc">
+            Tunnustus tavoitteelliselle ja ryhdistäytyneelle opiskelijalle.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section fade-in">
+      <h2 data-i18n="skills.title">Skills</h2>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3 data-i18n="skills.technical">Technical</h3>
+          <ul class="skills-list">
+            <li data-i18n="skills.1">Windows 10 & 11</li>
+            <li data-i18n="skills.2">Linux (various distros)</li>
+            <li data-i18n="skills.3">Microsoft Office (excellent)</li>
+            <li data-i18n="skills.4">Python (basics)</li>
+            <li data-i18n="skills.5">C# (basics)</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3 data-i18n="skills.soft">Soft Skills</h3>
+          <ul class="skills-list">
+            <li data-i18n="skills.6">Problem-solving</li>
+            <li data-i18n="skills.7">Honesty</li>
+            <li data-i18n="skills.8">Precision</li>
+            <li data-i18n="skills.9">Initiative</li>
+            <li data-i18n="skills.10">Flexibility</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3 data-i18n="skills.languages">Languages</h3>
+          <ul class="skills-list">
+            <li data-i18n="skills.11">Suomi (native)</li>
+            <li data-i18n="skills.12">English (excellent)</li>
+            <li data-i18n="skills.13">Swedish (basic)</li>
+          </ul>
+        </div>
+        <div class="skills-category">
+          <h3 data-i18n="skills.certificates">Certificates</h3>
+          <ul class="skills-list">
+            <li data-i18n="skills.14">Hätäensiapukortti (09/2024–09/2027)</li>
+            <li data-i18n="skills.15">Työturvakortti (10/2024–10/2029)</li>
+            <li data-i18n="skills.16">Opiskelijan sähkötyöturvallisuuskortti (11/2024–11/2027)</li>
+            <li data-i18n="skills.17">Tulityökortti (03/2025–03/2030)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section fade-in">
+      <h2 data-i18n="projects.title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-title" data-i18n="projects.1.title">Portfolio Website</div>
+          <div class="project-desc" data-i18n="projects.1.desc">This CV website, built with HTML, CSS, and JavaScript, featuring animated backgrounds and glassmorphism.</div>
+          <div class="project-tech" data-i18n="projects.1.tech">HTML, CSS, JS</div>
+          <a href="https://github.com/ebbechristensen/portfolio" class="project-link" target="_blank" rel="noopener">
+            <span class="icon">
+              <img src="assets/github.svg" alt="GitHub" width="20" height="20" />
+            </span>
+            <span data-i18n="projects.1.link">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section fade-in">
+      <h2 data-i18n="contact.title">Contact</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+            <span class="icon">
+              <img src="assets/mail.svg" alt="Mail" width="22" height="22" />
+            </span>
+            <a href="mailto:ebbe@christensen.fi" data-i18n="contact.email">ebbe@christensen.fi</a>
+          </div>
+        <div class="contact-item">
+          <span class="icon">
+            <img src="assets/github.svg" alt="GitHub" width="22" height="22" />
+          </span>
+          <a href="https://github.com/ebbechristensen" target="_blank" rel="noopener" data-i18n="contact.github">GitHub</a>
+        </div>
+        <div class="contact-item">
+          <span class="icon">
+            <img src="assets/linkedin.svg" alt="LinkedIn" width="22" height="22" />
+          </span>
+          <a href="https://linkedin.com/in/ebbe-christensen" target="_blank" rel="noopener" data-i18n="contact.linkedin">LinkedIn</a>
+        </div>
+      </div>
+      <div class="contact-form-container">
+        <form id="contact-form" class="glass-card contact-form-glass" method="POST" action="https://formsubmit.co/ajax/ebbe@christensen.fi">
+          <div class="form-row">
+            <label for="name" class="form-label" data-i18n="contact.form.name"></label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required autocomplete="off" data-i18n-placeholder="contact.form.name"/>
+          </div>
+          <div class="form-row">
+            <label for="email" class="form-label" data-i18n="contact.form.email"></label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required autocomplete="off" data-i18n-placeholder="contact.form.email"/>
+          </div>
+          <div class="form-row">
+            <label for="message" class="form-label" data-i18n="contact.form.message"></label>
+            <textarea name="message" id="message" rows="4" placeholder="Your Message" required data-i18n-placeholder="contact.form.message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent" data-i18n="contact.form.send">
+            <img src="assets/mail.svg" alt="" class="icon-btn" width="20" height="20" />
+            <span data-i18n="contact.form.send">Send Message</span>
+          </button>
+          <div class="form-message" id="form-message"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <a href="#hero" class="footer-logo" data-i18n="footer.logo">Ebbe Christensen</a>
+      <span>&copy; <span id="year"></span> <span data-i18n="footer.copyright">Ebbe Christensen. All rights reserved.</span></span>
+    </div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5"/>
+      <path d="M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+  <script src="script.js"></script>
+</body>
+</html>
